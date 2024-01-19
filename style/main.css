@@ -9,25 +9,29 @@
 }
 
 /* sfondo header */
+/* largo 1365px */
 
 .conteiner.header{
   display: flex;
-  background-color: rgba(186,251,253,255);
+  background-color: rgba(49,97,224,255);
   height: 100px;
+  color: white;
   align-items: center;
   justify-content: center;
 }
 
 /* impostazione elementi header */
-/* largo 1365px */
+
+.conteiner-width{
+  display: flex;
+  width: 1365px;
+  align-items: center;
+  justify-content: center;
+}
 
 .header-section{
-  background-color: plum;
+  width: 100%;
   display: flex;
-  height: 80px;
-  border-style: dotted;
-  min-width: 10%;
-  border-color: white;
   align-items: center;
 }
 
@@ -39,7 +43,6 @@
 
 .header-section.nav{
   display: flex;
-  width: 40%;
   justify-content: space-around;
 }
 
@@ -48,7 +51,6 @@ li{
 }
 
 .header-section.login{
-  padding: 20px;
   justify-content: flex-end;
 }
 

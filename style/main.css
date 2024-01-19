@@ -1,0 +1,307 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+/* sfondo header */
+
+.conteiner.header{
+  display: flex;
+  background-color: rgba(186,251,253,255);
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* impostazione elementi header */
+/* largo 1365px */
+
+.header-section{
+  background-color: plum;
+  display: flex;
+  height: 80px;
+  border-style: dotted;
+  min-width: 10%;
+  border-color: white;
+  align-items: center;
+}
+
+/* impostazione nav */
+
+.header-section.logo{
+ padding: 20px;
+}
+
+.header-section.nav{
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+}
+
+li{
+  list-style: none;
+}
+
+.header-section.login{
+  padding: 20px;
+  justify-content: flex-end;
+}
+
+/* hero */
+
+.jumbotron{
+  display: flex;
+  background-color: rgba(204,135,254,255);
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron.unique-element{
+  display: flex;
+  border-style: dotted;
+  border-color: white;
+  background-color: palevioletred;
+  width: 45%;
+  height: 70%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* THE SPACE section */
+
+.the-space{
+  display: flex;
+  height:500px;
+  background-color: rgba(238,129,122,255);
+  justify-content: center;
+  align-items: center;
+}
+
+.the-space.img-space{
+  display: flex;
+  width: 900px;
+  height: 70%;
+  background-color: rgba(251,218,165,255);
+  justify-content: center;
+  align-items: center;
+  border-style: dotted;
+  border-color: white;
+  color: fuchsia;
+}
+
+.the-space.text-space{
+  display: flex;
+  width: 464px;
+  height: 70%;
+  background-color: rgba(247,194,118,255);
+  justify-content: center;
+  align-items: center;
+  border-style: dotted;
+  border-color: white;
+}
+
+/* the Vocal CHANE section*/
+
+.vocal-chane{
+  display: flex;
+  height:500px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.vocal-chane.text-vocal{
+  display: flex;
+  width: 464px;
+  height: 70%;
+  background-color: rgba(247,194,118,255);
+  justify-content: center;
+  align-items: center;
+  border-style: dotted;
+  border-color: fuchsia;
+}
+
+.vocal-chane.img-vocal{
+  display: flex;
+  width: 900px;
+  height: 70%;
+  background-color: rgba(251,218,165,255);
+  justify-content: center;
+  align-items: center;
+  border-style: dotted;
+  border-color: fuchsia;
+  color: fuchsia;
+}
+
+/* COMMUNITY section*/
+
+.community{
+  display: flex;
+  height:500px;
+  background-color: rgba(238,129,122,255);
+  justify-content: center;
+  align-items: center;
+}
+
+.community.img-community{
+  display: flex;
+  width: 900px;
+  height: 70%;
+  background-color: rgba(251,218,165,255);
+  justify-content: center;
+  align-items: center;
+  border-style: dotted;
+  border-color: white;
+  color: fuchsia;
+}
+
+.community.text-community{
+  display: flex;
+  width: 464px;
+  height: 70%;
+  background-color: rgba(247,194,118,255);
+  justify-content: center;
+  align-items: center;
+  border-style: dotted;
+  border-color: white;
+}
+
+/* READY TO START section */
+
+.ready{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(232,249,135,255);
+  height: 800px;
+}
+
+.ready.unique-ready-element{
+  display: flex;
+  border-style: dotted;
+  border-color: fuchsia;
+  background-color: rgba(247,194,118,255);
+  width: 1365px;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  color: fuchsia;
+}
+
+/* footer */
+
+.conteiner.footer-top{
+  display: flex;
+  height: 600px;
+  background-color: black;
+  justify-content: center;
+  border-bottom: solid;
+  border-color: white;
+}
+
+.conteiner.footer-bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 150px;
+  color: red;
+}
+
+/* social section*/
+
+h1{
+  margin: 10px;
+}
+
+.footer-top.span{
+  margin-left: 10px;
+  margin-bottom: 4px;
+}
+
+.social{
+  display: flex;
+  flex-direction: column;
+  height: 75%;
+  width: 355px;
+  background-color: rgba(171,247,183,255);
+  color: black;
+  border-style: dotted;
+  border-color: black;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+/* product section */
+
+.prodotto{
+  display: flex;
+  flex-direction: column;
+  height: 75%;
+  width: 252px;
+  background-color: rgba(171,247,183,255);
+  color: black;
+  border-style: dotted;
+  border-color: black;
+  margin-top: 10px;
+}
+
+/* company section */
+
+.compagnia{
+  display: flex;
+  flex-direction: column;
+  height: 75%;
+  width: 252px;
+  background-color: rgba(171,247,183,255);
+  color: black;
+  border-style: dotted;
+  border-color: black;
+  margin-top: 10px;
+}
+
+/* resource section */
+
+.risorse{
+  display: flex;
+  flex-direction: column;
+  height: 75%;
+  width: 252px;
+  background-color: rgba(171,247,183,255);
+  color: black;
+  border-style: dotted;
+  border-color: black;
+  margin-top: 10px;
+}
+
+/* rules section */
+
+.norme{
+  display: flex;
+  flex-direction: column;
+  height: 75%;
+  width: 252px;
+  background-color: rgba(171,247,183,255);
+  color: black;
+  border-style: dotted;
+  border-color: black;
+  margin-top: 10px;
+}
+
+/* button and logo section */
+
+.conteiner-button{
+  display: flex;
+  background-color: blueviolet;
+  width: 1365px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}

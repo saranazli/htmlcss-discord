@@ -128,11 +128,19 @@ span.jumbo{
   align-items: center;
   height:700px;
   background-color: white;
+  margin-bottom: 40px;
 }
 
 .top-sections.img{
   width: 1000px;
   background-size: cover;
+}
+
+.top-sections.text{
+  display: flex;
+  width: 264px;
+  flex-direction: column;
+  margin-left: 70px;
 }
 
 .img.space{
@@ -143,82 +151,14 @@ span.jumbo{
   background-image: url(../img/item2.svg);
 }
 
-.top-sections.text.space{
-  display: flex;
-  width: 264px;
-  flex-direction: column;
-  margin-left: 70px;
+.img.community{
+  background-image: url(../img/item3.svg);
 }
+
 
 h1{
   margin-bottom: 30px;
   font-size: 35px;
-}
-
-/* the Vocal CHANE section*/
-
-.vocal-chane{
-  display: flex;
-  height:500px;
-  background-color: rgba(246,246,246,255);
-  justify-content: center;
-  align-items: center;
-}
-
-.vocal-chane.text-vocal{
-  display: flex;
-  width: 464px;
-  height: 70%;
-  background-color: rgba(247,194,118,255);
-  justify-content: center;
-  align-items: center;
-  border-style: dotted;
-  border-color: fuchsia;
-}
-
-.vocal-chane.img-vocal{
-  display: flex;
-  width: 900px;
-  height: 70%;
-  background-color: rgba(251,218,165,255);
-  justify-content: center;
-  align-items: center;
-  border-style: dotted;
-  border-color: fuchsia;
-  color: fuchsia;
-}
-
-/* COMMUNITY section*/
-
-.community{
-  display: flex;
-  height:500px;
-  background-color: white;
-  justify-content: center;
-  align-items: center;
-}
-
-.community.img-community{
-  display: flex;
-  width: 900px;
-  height: 70%;
-  background-color: rgba(251,218,165,255);
-  justify-content: center;
-  align-items: center;
-  border-style: dotted;
-  border-color: white;
-  color: fuchsia;
-}
-
-.community.text-community{
-  display: flex;
-  width: 464px;
-  height: 70%;
-  background-color: rgba(247,194,118,255);
-  justify-content: center;
-  align-items: center;
-  border-style: dotted;
-  border-color: white;
 }
 
 /* READY TO START section */

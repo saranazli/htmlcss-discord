@@ -128,7 +128,7 @@ span.jumbo{
   align-items: center;
   height:700px;
   background-color: white;
-  margin-bottom: 40px;
+  margin-top: 250px;
 }
 
 .top-sections.img{
@@ -167,20 +167,18 @@ h1{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(246,246,246,255);
-  height: 800px;
+  flex-direction: column;
+  height: 1500px;
+  margin-top: 250px;
 }
 
-.ready.unique-ready-element{
+.ready.element{
   display: flex;
-  border-style: dotted;
-  border-color: fuchsia;
-  background-color: rgba(247,194,118,255);
   width: 1365px;
   height: 80%;
   justify-content: center;
   align-items: center;
-  color: fuchsia;
+  justify-content: space-around;
 }
 
 /* footer */
